@@ -1,47 +1,53 @@
-html{
-    font-size: 62.5%;
-}
+/*Paleta de colores*/
+header {
+  background-color: #9a9ce9; }
+  header nav div a {
+    display: flex;
+    justify-content: end; }
 
-body{
-    background-color: blanchedalmond;
-}
-header{
-    display: flex; 
-    justify-content: end;
-    padding-left: 0px;
-}
-a img{
+a {
+  font-size: 18px; }
+  a:hover {
+    color: black;
+    font-weight: bold; }
+  a img {
     height: 88px;
-    padding-left: 0%;
-    padding-right: 860px;
-}
-main div h1{
-        font-size: 3rem;
-        margin-top: 48px;
-        text-align: center;
-}
-.lea{
-        margin-top: 100px;
-        margin-left: 300px;
-        margin-bottom: 100px;
-}
-    .contenido{
-        margin-left: 300px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    form{
-        background-color: whitesmoke;
-        width: 600px;
-        height: 300px;
-        margin-left: 240px;
-        margin-top: 40px;
-        padding: 24px;
-    }
-    footer{
-        padding: 0px;
-    }
-    .tarjetas{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+    padding-right: 600px; }
+
+.navbar-nav {
+  display: flex;
+  align-items: flex-end; }
+
+/*titulos*/
+main {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+  main div h1 {
+    font-size: 24px; }
+
+/*footer*/
+footer {
+  background-color: #85496f;
+  height: 200px; }
+  footer div button {
+    margin-top: 44px; }
+
+body {
+  background-color: #f2f2f2; }
+
+div h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 24px;
+  margin: 16px; }
+
+.card-ing {
+  margin-top: 88px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center; }
+
+.card-pro {
+  margin-bottom: 88px;
+  display: flex;
+  align-items: center; }
