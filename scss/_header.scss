@@ -1,0 +1,27 @@
+header{
+background-color: $color1;
+    nav{
+        div{
+            a{
+                display: flex;
+                justify-content: end;
+            }
+        }
+    }
+}
+a{
+    font-size: 18px;
+    &:hover{
+        color:black;
+        font-weight: bold;
+    }
+    img{
+        height: 88px;
+        padding-right: 600px;
+    }
+}
+.navbar-nav{
+    display: flex;
+    align-items: flex-end;
+    
+}
