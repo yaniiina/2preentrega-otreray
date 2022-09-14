@@ -3,8 +3,8 @@
 @import "_titulosytipografia";
 @import "_footer";
 @import "_index";
-/*mixin*/
 
+/*mixin*/
     @mixin titulos{
     font-size: 40px; 
     font-weight: 500;
@@ -14,7 +14,7 @@
 .inicio,h1{
     @include titulos;
 }
-/*entend*/
+/*extend*/
 .cardTitle{
     @extend .inicio;
     font-size: 24px;
