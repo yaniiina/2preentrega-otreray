@@ -8,7 +8,6 @@ header {
 a {
   font-size: 18px; }
   a:hover {
-    color: black;
     font-weight: bold; }
   a img {
     height: 88px;
@@ -51,3 +50,21 @@ div h1 {
   margin-bottom: 88px;
   display: flex;
   align-items: center; }
+
+/*mixin*/
+.inicio, .cardTitle, h1 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: #555; }
+
+/*entend*/
+.cardTitle {
+  font-size: 24px;
+  text-align: left; }
+
+/*mapa*/
+form {
+  background-color: #c4c4c4;
+  align-items: center;
+  margin: 120px; }
