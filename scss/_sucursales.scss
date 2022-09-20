@@ -1,0 +1,14 @@
+h1{
+    @include titulos;
+}
+h2{
+    @extend h1;
+    font-size: 20px;
+    text-align: left;
+}
+.mapa{
+    margin-bottom: 80px;
+}
+.ubicacion{
+    font-weight: 300;
+}
