@@ -10,15 +10,31 @@ div{
         margin: 16px;
     }
 }
-.card-ing{
+.ingredientes{
     margin-top: 88px;
-    margin-bottom: 48px;
-    display: flex;
-    align-items: center;
-}
-.card-pro{
     margin-bottom: 88px;
+    padding-right: 68px;
+    padding-left: 68px;
     display: flex;
     align-items: center;
 }
-
+.productores{
+    margin-bottom: 88px;
+    padding-right: 68px;
+    padding-left: 68px;
+    display: flex;
+    align-items: center;
+}
+section{
+    background-color: lightblue;
+    height: 300px;
+    div{
+        h5{
+            font-size: 24px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}
