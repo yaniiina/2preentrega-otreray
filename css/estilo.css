@@ -20,8 +20,15 @@ a {
 /*titulos*/
 main {
   font-family: Georgia, 'Times New Roman', Times, serif; }
-  main div h1 {
-    font-size: 24px; }
+  main div p {
+    font-size: 20px; }
+
+h2 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 20;
+  font-weight: 400; }
 
 /*footer*/
 footer {
@@ -33,26 +40,74 @@ footer {
 body {
   background-color: #f2f2f2; }
 
-div h1 {
+div h1, div h2 {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
   padding: 24px;
   margin: 16px; }
 
-.card-ing {
+.ingredientes {
   margin-top: 88px;
-  margin-bottom: 48px;
+  margin-bottom: 88px;
+  padding-right: 68px;
+  padding-left: 68px;
   display: flex;
   align-items: center; }
 
-.card-pro {
+.productores {
   margin-bottom: 88px;
+  padding-right: 68px;
+  padding-left: 68px;
   display: flex;
   align-items: center; }
+
+section {
+  background-color: lightblue;
+  height: 300px; }
+  section div h5 {
+    font-size: 24px;
+    font-weight: 600; }
+  section div p {
+    font-size: 20px; }
 
 /*mixin*/
-.inicio, .cardTitle, h1 {
+.tarjetas {
+  padding-bottom: 160px;
+  color: white; }
+
+div a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold; }
+
+h1, h2 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: #555; }
+
+h2 {
+  font-size: 24px; }
+
+h1, h2 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: #555; }
+
+h2 {
+  font-size: 20px;
+  text-align: left; }
+
+.mapa {
+  margin-bottom: 80px; }
+
+.ubicacion {
+  font-weight: 300; }
+
+/*mixin*/
+.inicio, .cardTitle, h1, h2 {
   font-size: 40px;
   font-weight: 500;
   text-align: center;
