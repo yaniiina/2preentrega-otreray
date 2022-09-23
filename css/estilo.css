@@ -10,8 +10,7 @@ a {
   a:hover {
     font-weight: bold; }
   a img {
-    height: 88px;
-    padding-right: 600px; }
+    height: 88px; }
 
 .navbar-nav {
   display: flex;
