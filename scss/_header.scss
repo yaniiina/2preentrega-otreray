@@ -11,16 +11,17 @@ background-color: $color1;
 }
 a{
     font-size: 18px;
+    font-weight: 600;
     &:hover{
         font-weight: bold;
     }
     
     img{
-        height: 88px;
+        height: 70px;
+        padding: 8px;
     }
 }
 .navbar-nav{
     display: flex;
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }

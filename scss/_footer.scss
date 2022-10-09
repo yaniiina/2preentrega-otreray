@@ -1,10 +1,19 @@
 /*footer*/
 footer{
         background-color: $colorfooter;
-        height: 200px;
-        div{
-            button{
-                margin-top: 44px;
+        a{
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+    section{
+        a{
+            svg{
+                color: #fff;
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.2);
+                    border-radius: 50px;
             }
         }
+    }
     }

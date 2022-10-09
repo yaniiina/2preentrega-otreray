@@ -1,4 +1,33 @@
 /*Paleta de colores*/
+/*titulos*/
+main {
+  font-family: 'Roboto', sans-serif; }
+  main div p {
+    font-size: 20px; }
+
+div h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 24px;
+  margin: 16px; }
+
+div h2 {
+  text-align: center;
+  padding: 8px;
+  margin: 16px; }
+
+h1 {
+  font-family: 'kalam', cursive;
+  font-style: normal;
+  font-weight: 500;
+  color: #333; }
+
+h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300; }
+
 header {
   background-color: #9a9ce9; }
   header nav div a {
@@ -6,119 +35,148 @@ header {
     justify-content: end; }
 
 a {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 600; }
   a:hover {
     font-weight: bold; }
   a img {
-    height: 88px; }
+    height: 70px;
+    padding: 8px; }
 
 .navbar-nav {
   display: flex;
   align-items: flex-end; }
 
-/*titulos*/
-main {
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-  main div p {
-    font-size: 20px; }
-
-h2 {
-  font-size: 24px; }
-
-h4 {
-  font-size: 20;
-  font-weight: 400; }
-
 /*footer*/
 footer {
-  background-color: #85496f;
-  height: 200px; }
-  footer div button {
-    margin-top: 44px; }
+  background-color: #A074C5; }
+  footer a {
+    font-size: 18px;
+    text-decoration: none; }
+
+section a svg {
+  color: #fff; }
+  section a svg:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px; }
 
 body {
-  background-color: #f2f2f2; }
+  background-color: #F9F8FF; }
 
-div h1, div h2 {
-  text-align: center;
+.historia {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding-right: 68px;
+  padding-left: 68px;
+  display: flex;
+  align-items: center; }
+
+.lea {
+  width: "100%";
+  height: "240"; }
+
+.historia div h5 {
   font-size: 24px;
-  font-weight: bold;
-  padding: 24px;
-  margin: 16px; }
+  font-weight: 600;
+  color: #333; }
 
-.ingredientes {
-  margin-top: 88px;
-  margin-bottom: 88px;
-  padding-right: 68px;
-  padding-left: 68px;
+.historia div p {
+  font-size: 20px; }
+
+button a {
+  background-color: #9D88D8;
+  text-decoration: none;
+  border-radius: 16px;
+  border-color: none;
+  height: 44px;
   display: flex;
-  align-items: center; }
-
-.productores {
-  margin-bottom: 88px;
-  padding-right: 68px;
-  padding-left: 68px;
-  display: flex;
-  align-items: center; }
-
-section {
-  background-color: lightblue;
-  height: 300px; }
-  section div h5 {
-    font-size: 24px;
-    font-weight: 600; }
-  section div p {
-    font-size: 20px; }
-
-/*mixin*/
-.tarjetas {
-  padding-bottom: 160px;
-  color: white; }
-
-div a {
+  text-align: center;
   color: white;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: bold; }
-
-h1, h2 {
-  font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
-  color: #555; }
+  padding: 12px 24px; }
+  button a:hover {
+    background-color: white;
+    border-radius: 16px;
+    border: 2px solid #9D88D8;
+    text-align: center;
+    color: #333;
+    padding: 12px 24px; }
 
-h2 {
-  font-size: 24px; }
+.tarjetas {
+  padding-bottom: 120px;
+  padding-right: 20px; }
 
-h1, h2 {
-  font-size: 40px;
-  font-weight: 500;
-  text-align: center;
-  color: #555; }
-
-h2 {
-  font-size: 20px;
-  text-align: left; }
-
-.mapa {
-  margin-bottom: 80px; }
+.cardImg {
+  filter: brightness(0.5); }
 
 .ubicacion {
+  margin-top: 88px;
+  margin-bottom: 88px; }
+
+#nos {
+  height: 300px;
+  color: gray;
   font-weight: 300; }
 
-/*mixin*/
-.inicio, .cardTitle, h1, h2 {
-  font-size: 40px;
-  font-weight: 500;
+.formRegister {
+  margin: 44px;
+  padding: 32px;
+  background-color: rgba(29, 27, 27, 0.1);
+  width: 680px;
+  height: 480px;
+  color: #333; }
+
+.textContact {
+  margin: 32px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.452);
+  box-sizing: border-box;
+  box-shadow: 16px;
+  width: 480px;
+  height: 480px; }
+
+.btnEnv {
+  background-color: #9D88D8;
+  text-decoration: none;
+  border-radius: 16px;
+  border: 2px solid #9D88D8;
+  height: 44px;
+  display: flex;
   text-align: center;
-  color: #555; }
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px; }
+  .btnEnv:hover {
+    background-color: white;
+    border-radius: 16px;
+    border: 2px solid #9D88D8;
+    text-align: center;
+    color: #333;
+    padding: 10px; }
 
-/*extend*/
-.cardTitle {
+h1 {
+  font-size: 60px; }
+
+h2 {
   font-size: 24px;
-  text-align: left; }
+  font-weight: 400; }
 
-/*mapa*/
-form {
-  background-color: #c4c4c4;
-  align-items: center;
-  margin: 120px; }
+h3 {
+  font-size: 28px;
+  font-weight: 400; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white; }
+
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: oblique; }
